@@ -1,4 +1,4 @@
-import java.awt.Rectangle
+package main
 
 import scala.collection.mutable.ArrayBuffer
 

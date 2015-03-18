@@ -1,3 +1,5 @@
+package main
+
 /**
  * Created by NaNLagger on 16.03.15.
  * @author Stepan Lyashenko

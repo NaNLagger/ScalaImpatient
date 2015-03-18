@@ -1,3 +1,5 @@
+package main
+
 
 /**
  * Created by NaNLagger on 07.03.15.

@@ -1,3 +1,5 @@
+package main
+
 import java.io._
 
 import scala.collection.mutable.ArrayBuffer
@@ -10,15 +12,15 @@ import scala.io.Source
 object Lesson9 extends App {
   //ex 1.
   {
-    val z1In = Source.fromFile("lesson8_1.txt").getLines().toArray.reverse;
-    val z1Out = new PrintWriter("lesson8_1.txt");
+    val z1In = Source.fromFile("lesson8_1.txt").getLines().toArray.reverse
+    val z1Out = new PrintWriter("lesson8_1.txt")
     for (i <- z1In) z1Out.println(i)
     z1Out.close()
   }
 
   //ex 2.
   {
-    val z2In = Source.fromFile("lesson8_2.txt").getLines().toArray;
+    val z2In = Source.fromFile("lesson8_2.txt").getLines().toArray
     val z2Out = new PrintWriter("lesson8_2.txt")
     for (i <- z2In) z2Out.println(i.replaceAll("\t", "    "))
     z2Out.close()

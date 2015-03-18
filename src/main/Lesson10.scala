@@ -1,3 +1,5 @@
+package main
+
 /**
  * Created by NaNLagger on 11.03.15.
  * @author Stepan Lyashenko
@@ -89,7 +91,7 @@ object Lesson10 extends App {
 
   //Ex 5.
   {
-    import java.beans.{PropertyChangeListener, PropertyChangeSupport, PropertyChangeEvent}
+    import java.beans.{PropertyChangeEvent, PropertyChangeListener, PropertyChangeSupport}
 
     trait PropertyChangeSupportLike {
       var support = new PropertyChangeSupport(this);
